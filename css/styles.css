@@ -1,0 +1,122 @@
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #000;
+  color: #f5c518; /* Gold */
+  padding: 20px;
+}
+
+nav {
+  background-color: #111;
+  padding: 10px 20px;
+  border-bottom: 2px solid #f5c518;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav ul li a {
+  color: #f5c518;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px 12px;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #f5c518;
+  color: #000;
+  border-radius: 4px;
+}
+
+/* Header styles */
+header {
+  background-color: #000;
+  color: #f5c518;
+  padding: 40px 20px;
+  text-align: center;
+  border-bottom: 2px solid #f5c518;
+}
+
+header h1 {
+  font-size: 2.8em;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px #b30000; /* Touch of red */
+}
+
+main {
+  padding: 20px;
+  background-color: #111;
+  margin-top: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(245, 197, 24, 0.3); /* Gold glow */
+}
+
+main h2 {
+  color: #f5c518;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #b30000; /* Red accent */
+}
+
+main p {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+}
+
+main img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  margin-top: 10px;
+  border: 2px solid #f5c518;
+}
+
+footer {
+  background-color: #000;
+  color: #f5c518;
+  padding: 20px;
+  margin-top: 40px;
+  text-align: center;
+  border-top: 2px solid #f5c518;
+}
+
+footer form {
+  margin-top: 10px;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  padding: 10px;
+  margin: 5px 0;
+  width: 80%;
+  max-width: 400px;
+  background-color: #111;
+  color: #f5c518;
+  border: 1px solid #f5c518;
+  border-radius: 4px;
+}
+
+footer input[type="submit"] {
+  background-color: #b30000; /* Red button */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+footer input[type="submit"]:hover {
+  background-color: #f5c518;
+  color: #000;
+}
